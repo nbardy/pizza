@@ -9,8 +9,8 @@ img.src = "pizza.png";
 
 state = [];
 
-COUNT = (window.innerWidth * window.innerHeight) / 300;
-SIZE = 25;
+COUNT = window.innerWidth / 30;
+SIZE = 278;
 console.log(SIZE, COUNT);
 
 function rdo(low, high) {

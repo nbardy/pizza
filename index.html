@@ -13,10 +13,12 @@ img {
   position: absolute;
   width: 100%;
   background-color: transparent;
-  height: 200px;
-  top: 50%;
-  margin-top: -200px
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 canvas {
   position: absolute;
@@ -26,19 +28,25 @@ canvas {
   right: 0;
 
 }
+.spacer {
+    height: 200px;
+}
 
 h2 {
   text-align: center;
-  font-size: 84px;
+  font-size: 144px;
   color: white;
+  font-family: 'Permanent Marker' ;
 }
 
 </style>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 <body>
     <canvas id="c1"></canvas>
       <div id="full">
-        <h2>Saturday 5PM</h2>
-        <h2>Be There</h2>
+          <h2>Woodfired Pizzas </h2>
+          <h2>Mission</h2>
+          <h2>Friday 8PM</h2>
         </div>
     <script language="javascript" src="main.js">
     </script>
